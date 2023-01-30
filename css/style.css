@@ -232,4 +232,41 @@ main{
     background-color: rgb(255, 217, 0); /*DebugFeature*/
 }
 
+#bottomcontainerbox{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 255, 255); /*DebugFeature*/
+}
 
+#bottomcontainer{
+    width: 60%;
+    height: 300px; /*DebugFeature*/
+    border-color: rgb(0, 0, 0); /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+    background-color: rgb(0, 255, 255); /*DebugFeature*/
+}
+
+#faqcontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+}
+
+#faqbox{
+    width: 60%;
+    height: 100%; /*DebugFeature*/
+    padding-top: 200px;
+    border-color: rgb(0, 0, 0); /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+    background-color: rgb(0, 255, 255); /*DebugFeature*/
+}
+
+
+.faqquestionbox{
+    width: 100%;
+    height: calc(100% / 3);
+    border-color: rgb(255, 255, 255); /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
