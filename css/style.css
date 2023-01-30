@@ -270,3 +270,39 @@ main{
     border-color: rgb(255, 255, 255); /*DebugFeature*/
     border-style: dotted; /*DebugFeature*/
 }
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+    margin-top: 200px;
+    background-color: black;
+}
+
+
+#divfooter{
+    display: flex;
+    height: 90%;
+    width: 70%;
+    margin-top: 20px;
+    border-color: rgb(255, 255, 255); /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
+
+#footerlists{
+    display: flex;
+    height: 85%;
+    width: 100%;
+    border-color: rgb(0, 170, 255); /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
+
+
+.footerlist{
+    width: calc(100% / 5);
+    height: 100%;
+    border-color: rgb(81, 0, 255); /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
