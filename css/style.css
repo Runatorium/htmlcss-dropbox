@@ -68,10 +68,10 @@ main{
 }
 
 .mainbox{
+    flex-direction: column;
     display: flex;
     margin-top: 100px;
-    width: 60%;
-    height: 1600px;  /*DebugFeature*/
+    width: 60%;  
     border-color:  rgb(0, 0, 0); /*DebugFeature*/
     border-style: dotted; /*DebugFeature*/
 }
@@ -97,6 +97,70 @@ main{
 
 #officecontactbox{
     display: flex;
+    flex-direction: column;
+    margin-top: 50px;
     width: 100%;
     height: 200px; /*DebugFeature*/
+    border-color: black; /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
+
+#officeupperbox{
+    width: 100%;
+    height: 40px;
+    background-color: aqua; /*DebugFeature*/
+    border-color: white; /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
+
+
+.containerbusinessbox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-color: black; /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
+
+#officeleftbox{
+    width: 70%;
+    height: 100%;
+    background-color: aqua; /*DebugFeature*/
+    border-color: white; /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
+
+#officerightbox{
+    width: 30%;
+    height: 100%;
+    background-color: aqua; /*DebugFeature*/
+    border-color: white; /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
+
+#becomepartnerbox{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    background-color: aqua; /*DebugFeature*/
+    border-color: black; /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
+
+
+.becomepartnerboximg{
+    width: 60%;
+    height: 100%;
+    background-color: blue;
+    border-color: white; /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
+
+.becomepartnerboxtext{
+    width: 40%;
+    height: 100%;
+    background-color: blue;
+    border-color: white; /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
 }
