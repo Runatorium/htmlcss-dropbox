@@ -100,7 +100,7 @@ main{
     flex-direction: column;
     margin-top: 50px;
     width: 100%;
-    height: 200px; /*DebugFeature*/
+    height: 250px; /*DebugFeature*/
     border-color: black; /*DebugFeature*/
     border-style: dotted; /*DebugFeature*/
 }
@@ -152,7 +152,7 @@ main{
 .becomepartnerboximg{
     width: 60%;
     height: 100%;
-    background-color: blue;
+    background-color: blue; /*DebugFeature*/
     border-color: white; /*DebugFeature*/
     border-style: dotted; /*DebugFeature*/
 }
@@ -160,7 +160,36 @@ main{
 .becomepartnerboxtext{
     width: 40%;
     height: 100%;
-    background-color: blue;
+    background-color: blue; /*DebugFeature*/
     border-color: white; /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
+
+#dropboxbusinessbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    width: 100%;
+    height: 800px;
+    background-color: aqua; /*DebugFeature*/
+    border-color: white; /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
+
+.dropboxbusinesscontainer{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: calc(100% / 3 - 20px );
+    background-color: blueviolet; /*DebugFeature*/
+    border-color: black; /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
+
+.dropcontainerbox{
+    width: 100%;
+    height: calc(100% / 3); /*DebugFeature*/
+    background-color: rgb(21, 230, 21); /*DebugFeature*/
+    border-color: black; /*DebugFeature*/
     border-style: dotted; /*DebugFeature*/
 }
