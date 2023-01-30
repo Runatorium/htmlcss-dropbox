@@ -21,8 +21,8 @@
     width: 400px;
     background-color: blue;
     margin: 20px;
-    border-color:  white;
-    border-style: dotted;
+    border-color:  white; /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
 }
 
 .bottomheader{
@@ -30,7 +30,7 @@
     justify-content: center;
     background-color: cornflowerblue;
     width: 100%;
-    height: 500px;
+    height: 500px; 
 }
 h1{
     display: inline-block;
@@ -39,18 +39,18 @@ h1{
 #bottomheaderbox{
     display: flex;
     margin-top: 100px;
-    background-color: blue;
-    width: 60%;
-    height: 400px;
+    background-color: blue; /*DebugFeature*/
+    width: 70%;
+    height: 400px; /*DebugFeature*/
 }
 
 
 #bottomheaderinternalboxtext{
     height: 100%;
     width: 35%;
-    background-color: aliceblue;
-    border-color:  black;
-    border-style: dotted;
+    background-color: aliceblue; /*DebugFeature*/
+    border-color:  black; /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
 }
 
 #bottomheaderinternalboximg{
@@ -59,4 +59,44 @@ h1{
     background-color: rgb(106, 181, 246);
     border-color:  rgb(255, 255, 255);
     border-style: dotted;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.mainbox{
+    display: flex;
+    margin-top: 100px;
+    width: 60%;
+    height: 1600px;  /*DebugFeature*/
+    border-color:  rgb(0, 0, 0); /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
+
+#businessplanbox{
+    display: flex;
+    width: 100%;
+    height: 700px; /*DebugFeature*/
+    margin-top: 90px;
+    background-color: aqua ; /*DebugFeature*/
+    border-color: white; /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
+
+.businessplan{
+    
+    margin: 10px;
+    width: calc(100% /3);
+    height: 600px; /*DebugFeature*/
+    border-color: black; /*DebugFeature*/
+    border-style: dotted; /*DebugFeature*/
+}
+
+#officecontactbox{
+    display: flex;
+    width: 100%;
+    height: 200px; /*DebugFeature*/
 }
