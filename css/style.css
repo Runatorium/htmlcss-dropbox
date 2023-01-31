@@ -154,22 +154,52 @@ main{
 #businessplanbox{
     display: flex;
     width: 100%;
-    height: 700px; /*DebugFeature*/
     margin-top: 50px;
-    background-color: aqua ; /*DebugFeature*/
-    border-color: white; /*DebugFeature*/
-    border-style: dotted; /*DebugFeature*/
 }
 
 .businessplan{
-    
+    display: flex;
+    flex-direction: column;
     margin: 10px;
     width: calc(100% /3);
-    height: 600px; /*DebugFeature*/
     border-color: black; /*DebugFeature*/
-    border-style: dotted; /*DebugFeature*/
+    border-width: thin;
 }
 
+.businessplan ul{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.secondul i{
+    margin-right: 10px;
+}
+
+.businessplan li{
+    margin-bottom: 15px;
+}
+
+.titolo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.freetrialbutton{
+        height: auto;
+        width: auto;
+        padding: 10px;
+        background-color: rgb(5, 70, 126);
+        color: white;
+        border-style: none;
+        margin-top: 20px;
+}
+ul p{
+    margin-top: 40px;
+}
+ul .bottomtext{
+    margin-top: 20px;
+}
 #officecontactbox{
     display: flex;
     flex-direction: column;
