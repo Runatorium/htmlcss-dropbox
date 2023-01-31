@@ -151,6 +151,10 @@ main{
     margin-bottom: 60px;
 }
 
+.maincontainertitlebox{
+    margin-left: 10px;
+}
+
 #businessplanbox{
     display: flex;
     width: 100%;
@@ -162,8 +166,7 @@ main{
     flex-direction: column;
     margin: 10px;
     width: calc(100% /3);
-    border-color: black; /*DebugFeature*/
-    border-width: thin;
+    border-style: groove;
 }
 
 .businessplan ul{
@@ -175,11 +178,17 @@ main{
 .secondul i{
     margin-right: 10px;
 }
+.secondul .fa-check{
+    color: blue;
+    margin-right: 10px;
+}
 
 .businessplan li{
     margin-bottom: 15px;
 }
-
+.caratteristiche li{
+    margin-bottom: 10px;
+}
 .titolo{
     font-size: 24px;
     font-weight: bold;
