@@ -124,9 +124,10 @@ ul{
 #bottomheaderinternalboximg{
     height: 115%;
     width: 65%;
-    background-color: rgb(106, 181, 246);
-    border-color:  rgb(255, 255, 255);
-    border-style: dotted;
+}
+
+#bottomheaderinternalboximg img{
+   height:  480px;
 }
 
 
