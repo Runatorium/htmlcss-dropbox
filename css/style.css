@@ -500,53 +500,71 @@ ul .bottomtext{
         border-style: none;
         margin-right: 150px ;
 }
-#faqcontainer{
+.menuflexbox {
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 700px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
-
-#faqbox{
+.menubox {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
     width: 60%;
-    height: 100%; 
+    margin-top: 100px;
+    margin-bottom: 150px;
 }
 
-#faqtextbox{
-    margin-top: 40px;
-    margin-bottom: 100px;
-    font-size: 36px;
-    font-weight: bold;
+#uppermenubox {
+    height: 100px;
 }
 
+#titolmenubox{
+    font-size: 42px;
+    margin-bottom: 40px;
+}
 
-#txtbox {
-    position: relative;
+.internalmenubox {
+    display: flex;
+    flex-direction: row;
+    height: calc(100% / 3);
+    width: 100%;
+}
+
+#leftbox{
+    width: 90%;
+    height: 100%;
+}
+
+#rightbox{
+    width:10%;
+    height: 100%;
+}
+
+.internalmenubox:hover {
+    height: 120%;
+}
+
+.internalmenubox span{
+    position: absolute;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+#leftbox p{
+    font-size: 20px;
+    padding: 100px;
     opacity: 0;
-    padding-top: 30px;
 }
 
-#txtbox:hover{
+#leftboxtxt:hover {
     opacity: 1;
 }
-
-.faqquestionbox:hover{
-    height: 200px;
-}
-
-
-.faqquestionbox{
+#rightbox{
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100px;
-    border-color: rgb(255, 255, 255);
-    border-style: dotted;
-    align-content: center;
-   
+    justify-content: center;
+    align-items: center;
 }
-
 
 footer{
     display: flex;
