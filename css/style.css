@@ -36,7 +36,7 @@ html{
 .headerbox li{
     margin: 25px;
 }
-ul{
+.mainbox ul{
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -63,7 +63,27 @@ ul{
     margin: 20px;
 }
 
-#leftulheader{
+
+.headerrightbox{
+    display: flex;
+    justify-content: flex-end;
+    height: 70%;
+    width: 30%;
+    margin: 20px;
+}
+
+#rightulheader{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    align-self: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#leftheaderbox{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -356,6 +376,11 @@ ul .bottomtext{
     width: calc(100% / 3);
 }
 
+.logoboxspecial{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+}
 
 .logo{
     display: flex;
