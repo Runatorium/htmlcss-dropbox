@@ -419,6 +419,15 @@ ul .bottomtext{
     max-height: 10%;
 }
 
+/*border da fixare*/
+
+#logodesignit{
+    border:rgb(140, 201, 140);
+    border-width: 40px;
+}
+
+/*border da fixare*/
+
 #logoarizona{
     background-color: rgb(151, 26, 59);
 }
@@ -460,17 +469,32 @@ ul .bottomtext{
 #bottomcontainerbox{
     display: flex;
     justify-content: center;
-    background-color: rgb(0, 255, 255); /*DebugFeature*/
+    background-color:rgb(100, 180, 218);
 }
 
 #bottomcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 60%;
-    height: 300px; /*DebugFeature*/
-    border-color: rgb(0, 0, 0); /*DebugFeature*/
-    border-style: dotted; /*DebugFeature*/
-    background-color: rgb(0, 255, 255); /*DebugFeature*/
+    height: 300px;
 }
 
+#bottomcontainer span{
+    font-size: 44px;
+    font-weight: bold;
+    color: rgb(131, 0, 28);
+}
+
+#bottomcontainer button{
+        height: auto;
+        width: auto;
+        padding: 10px 30px;
+        background-color: white;
+        color: black;
+        border-style: none;
+        margin-right: 150px ;
+}
 #faqcontainer{
     display: flex;
     justify-content: center;
@@ -482,16 +506,39 @@ ul .bottomtext{
 #faqbox{
     width: 60%;
     height: 100%; /*DebugFeature*/
-    padding-top: 200px;
-    border-color: rgb(0, 0, 0); /*DebugFeature*/
-    border-style: dotted; /*DebugFeature*/
-    background-color: rgb(0, 255, 255); /*DebugFeature*/
+}
+
+#faqtextbox{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+#txtbox {
+    position: relative;
+    opacity: 0;
+    padding-top: 30px;
+}
+
+#txtbox:hover{
+    opacity: 1;
+}
+
+.faqquestionbox:hover{
+    height: 200px;
 }
 
 
 .faqquestionbox{
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height: calc(100% / 3);
+    height: 100px;
+    border-color: rgb(255, 255, 255);
+    border-style: dotted;
+    align-content: center;
     border-color: rgb(255, 255, 255); /*DebugFeature*/
     border-style: dotted; /*DebugFeature*/
 }
@@ -528,8 +575,34 @@ footer{
 .footerlist{
     width: calc(100% / 5);
     height: 100%;
+    color: white;
     border-color: rgb(81, 0, 255); /*DebugFeature*/
     border-style: dotted; /*DebugFeature*/
+}
+
+.footerlist ul{
+    list-style: none;
+}
+
+.footerlist li{
+    margin-bottom: 16px;
+
+}
+
+.footerlist i{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#special{
+    margin-top: 100px;
+    width: 80px;
+    margin-bottom: 40px;
+}
+
+#titoloulfooter{
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
 
