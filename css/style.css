@@ -226,7 +226,7 @@ main{
         border-style: none;
         margin-top: 20px;
 }
-ul p{
+.mainbox ul p{
     margin-top: 40px;
 }
 ul .bottomtext{
@@ -382,6 +382,24 @@ ul .bottomtext{
     width: calc(100% / 3);
 }
 
+#logospecialtxt{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    list-style: none;
+}
+
+#logospecialtxt p{
+    margin-bottom: 40px;
+}
+#logospecialtxt h2{
+    margin-top: 20px;
+    font-size: 56px;
+}
+#logospecialtxt hr{
+    margin-bottom: 40px;
+}
 .logo{
     display: flex;
     justify-content: center;
